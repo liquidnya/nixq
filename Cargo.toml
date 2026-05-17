@@ -1,0 +1,11 @@
+[package]
+authors = ["Alice ✨🌙 Luna <alice@liquidnya.dev>"]
+edition = "2021"
+name = "nixq"
+description = "A nix language data processing tool like jq for JSON, just for the nix language using jaq and rnix."
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.6.1", features = ["derive"] }
